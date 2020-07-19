@@ -40,7 +40,7 @@ public class XMLID implements Field<String, Integer, Integer> {
 
     @Override
     public String toString() {
-        return "FixmlID{" +
+        return "XMLID{" +
                 "inputData='" + inputData + '\'' +
                 ", data=" + data +
                 '}';

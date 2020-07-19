@@ -64,9 +64,9 @@ public class XMLConfig {
 
             // parsed field values will have to map with Bean object (this is transform logic)
 //            data = new Data()
-//                    .addField(FIXMLFieldNames.ID, new FldId("1a"))
-//                    .addField(FIXMLFieldNames.NAME, new FldName(message))
-//                    .addField(FIXMLFieldNames.NET_AMOUNT, new FldNetAmount("10.0"));
+//                    .addField(XMLFieldNames.ID, new XMLID("1a"))
+//                    .addField(XMLFieldNames.NAME, new XMLName(message))
+//                    .addField(XMLFieldNames.NET_AMOUNT, new XMLNetAmount("10.0"));
 
             System.out.println("parser  : header=" + header + ", message=" + message + ", Data=" + data);
 

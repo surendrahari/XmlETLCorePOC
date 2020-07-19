@@ -7,6 +7,10 @@ import edu.core.etl1.xml.model.target.XMLTarget;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import java.util.Optional;
+import java.util.function.Function;
+import java.util.function.Predicate;
+
 @Configuration
 public class XMLConfig {
 
@@ -51,31 +55,31 @@ public class XMLConfig {
         System.out.println("processor init.......");
 
         return new XMLProcessor();
-//        final Validator<String, String> preParserValidator = preParserValidator();
-//        final Parser<String, String, FixMLSource> parser = parser();
-//        final Validator<String, FixMLSource> postParserValidator = postParserValidator();
-//        final Convertor<String, FixMLSource, Fixml> convertor = convertor();
-//        final Enricher<String, Fixml> enricher = enricher();
-//        final Poster<String, Fixml> poster = poster();
-//
-//        return (header, message) -> {
-//            Predicate<String> preParseValidate = (msg) -> preParserValidator.validate(header, msg);
-//            Function<String, FixMLSource> parse = (msg) -> parser.parse(header, msg);
-//            Predicate<FixMLSource> postParseValidate = (src) -> postParserValidator.validate(header, src);
-//            Function<FixMLSource, Fixml> convert = (src) -> convertor.convert(header, src);
-//            Function<Fixml, Fixml> enrich = (tgt) -> enricher.enrich(header, tgt);
-//            Function<Fixml, Fixml> post = (tgt) -> poster.post(header, tgt);
-//
-//            System.out.println("process header :" + header);
-//
-//            return Optional.ofNullable(message)
-//                    .filter(preParseValidate)
-//                    .map(parse)
-//                    .filter(postParseValidate)
-//                    .map(convert)
-//                    .map(enrich)
-//                    .map(post)
-//                    .orElse(null);
-//        };
+        /*final Validator<String, String> preParserValidator = preParserValidator();
+        final Parser<String, String, XMLSource> parser = parser();
+        final Validator<String, XMLSource> postParserValidator = postParserValidator();
+        final Convertor<String, XMLSource, XMLTarget> convertor = convertor();
+        final Enricher<String, XMLTarget> enricher = enricher();
+        final Poster<String, XMLTarget> poster = poster();
+
+        return (header, message) -> {
+            Predicate<String> preParseValidate = (msg) -> preParserValidator.validate(header, msg);
+            Function<String, XMLSource> parse = (msg) -> parser.parse(header, msg);
+            Predicate<XMLSource> postParseValidate = (src) -> postParserValidator.validate(header, src);
+            Function<XMLSource, XMLTarget> convert = (src) -> convertor.convert(header, src);
+            Function<XMLTarget, XMLTarget> enrich = (tgt) -> enricher.enrich(header, tgt);
+            Function<XMLTarget, XMLTarget> post = (tgt) -> poster.post(header, tgt);
+
+            System.out.println("process header :" + header);
+
+            return Optional.ofNullable(message)
+                    .filter(preParseValidate)
+                    .map(parse)
+                    .filter(postParseValidate)
+                    .map(convert)
+                    .map(enrich)
+                    .map(post)
+                    .orElse(null);
+        };*/
     }
 }

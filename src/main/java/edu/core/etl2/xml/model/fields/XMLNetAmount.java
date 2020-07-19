@@ -41,7 +41,7 @@ public class XMLNetAmount implements Field<String, BigDecimal, BigDecimal> {
 
     @Override
     public String toString() {
-        return "FixmlNetAmount{" +
+        return "XMLNetAmount{" +
                 "inputData='" + inputData + '\'' +
                 ", data=" + data +
                 '}';

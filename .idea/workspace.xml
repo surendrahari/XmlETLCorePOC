@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa0f493a-2573-47ce-9089-027226f64372" name="Default Changelist" comment="" />
+    <list default="true" id="fa0f493a-2573-47ce-9089-027226f64372" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/core/etl1/xml/config/XMLConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/core/etl1/xml/config/XMLConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/core/etl2/xml/config/XMLConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/core/etl2/xml/config/XMLConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/core/etl2/xml/model/fields/XMLID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/core/etl2/xml/model/fields/XMLID.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/core/etl2/xml/model/fields/XMLName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/core/etl2/xml/model/fields/XMLName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/core/etl2/xml/model/fields/XMLNetAmount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/core/etl2/xml/model/fields/XMLNetAmount.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -16,7 +27,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1euy0HxZHMCFIKB9hMUgGNbAR5f" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
   </component>
   <component name="RecentsManager">
@@ -82,5 +95,16 @@
       <updated>1595185547628</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

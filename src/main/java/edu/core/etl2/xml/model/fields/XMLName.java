@@ -26,7 +26,7 @@ public class XMLName implements Field<String, String, String> {
 
     @Override
     public String toString() {
-        return "FixmlName{" +
+        return "XMLName{" +
                 "inputData='" + inputData + '\'' +
                 '}';
     }
